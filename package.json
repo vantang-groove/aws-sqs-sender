@@ -2,5 +2,11 @@
   "name": "aws-sqs-sender",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.450.0"
+  },
   "license": "MIT"
 }
